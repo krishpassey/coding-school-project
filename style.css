@@ -10,14 +10,62 @@ html, body {
     width: 100%;
 }
 
-#box{
-    height: 500px;
-    width: 500px;
-    background-color: crimson;
+.main{
+    height: 100px;
+    width: 100%;
+    position: relative;
 }
 
-#inner{
-    height: 50%;
-    width: 50%;
-    background-color: royalblue;
+.nav{
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #dadada;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw
+
+}
+
+
+.nav-part2{
+    display: flex;
+   align-items: center;
+    gap: 4vw;
+}
+
+.nav h2{
+    font-size: 2vw;
+    font-weight: 700;
+
+}
+
+.nav h4{
+    font-size: 1.4vw;
+}
+.nav i{
+    font-size: 1.5vw;
+    flex-wrap: 800px;
+    display: none;
+}
+
+
+
+@media(max-width: 600px) {
+    .nav{
+        background-color: lightseagreen;
+        color: white;
+        padding: 0 5vw;
+    }
+    .nav h2{
+        font-size: 6vw;
+    }
+    .nav h4{
+        font-size: 4vw;
+        display: none;
+    }
+    nav i{
+        display: block;
+    }
+
 }
