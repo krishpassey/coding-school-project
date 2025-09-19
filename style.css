@@ -45,7 +45,7 @@ html, body {
 }
 .nav i{
     font-size: 1.5vw;
-    flex-wrap: 800px;
+    font-weight: 800;
     display: none;
 }
 
@@ -64,7 +64,7 @@ html, body {
         font-size: 4vw;
         display: none;
     }
-    nav i{
+    .nav i{
         display: block;
     }
 
